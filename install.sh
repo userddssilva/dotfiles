@@ -22,6 +22,9 @@ source snap_intall.sh
 # install google chrome
 source google_chrome_install.sh
 
+# install brave
+source brave_install.sh
+
 # update and upgrade
 up_system
 

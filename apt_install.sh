@@ -1,58 +1,63 @@
 #!/bin/bash
 
-#install tools 
-echo 'Installing tools ...'
+function whait_a_bit(){
+    printf " "
+    for i in {1..10}
+    do
+        printf "."
+        sleep 0.5
+    done
+    printf "\n\n"
+}
+
+
+printf '\n\nInstall tools'
 apt install -y \
-    # install vim
-    acho '\nInstalling vim ...'
+    
+    printf '\n\nInstall vim'
+    whait_a_bit
     vim \
 
-    # install git
-    echo 'Installing git ...'
+    printf '\n\nInstall git'
+    whait_a_bit
     git \
 
-    # install tree
-    echo 'Installing tree ...'
+    printf '\n\nInstall tree'
+    whait_a_bit
     tree \
 
-    # install tmux
-    echo 'Installing tmux ...'
+    printf '\n\nInstall tmux'
+    whait_a_bit
     tmux \
-
-    # install ranger
-    echo 'Installing ranger ...'
+    
+    printf '\n\nInstall ranger'
+    whait_a_bit
     ranger \
 
-    # install curl
-    echo 'Installing curl ...'
+    printf '\n\nInstall curl'
+    whait_a_bit
     curl \
-
-    # install wget
-    echo 'Installing wget ...'
+    
+    printf '\n\nInstall wget'
+    whait_a_bit
     wget \
 
-    # install snap
-    echo 'Installing snap ...'
+    printf '\n\nInstall snap'
+    whait_a_bit
     snap \
 
-    # install neovim
-    # echo 'Installing neovim'
-    # neovim \
-
-    # more colors in the shell \
-    grc \
-
-# mysql install
-echo 'Installing mysql ...'
-apt install -y\
-    # install mysql-server
-    echo 'Installing mysql-server ...'
+    printf '\n\nInstall mysql-server'
+    whait_a_bit
     mysql-server \
-
-    # install mysql-client
-    echo 'Installing mysql-client ...'
-    mysql-client \
-
-    # install workbench
-    # echo 'Installing mysql-workbench ...'
-    # mysql-workbench \
+    
+    printf '\n\nInstall mysql-client'
+    whait_a_bit
+    mysql-client 
+    
+# install on ubuntu 18.04
+if [[ $(lsb_release -rs) == "18.04" ]];
+then
+    printf '\n\nInstall mysql-workbench'
+    sudo apt install -y \
+        mysql-workbench
+fi
