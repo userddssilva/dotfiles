@@ -2,7 +2,7 @@
 
 #install tools 
 echo 'Installing tools ...'
-sudo apt install -y \
+apt install -y \
     # install vim
     acho '\nInstalling vim ...'
     vim \
@@ -44,7 +44,7 @@ sudo apt install -y \
 
 # mysql install
 echo 'Installing mysql ...'
-sudo apt install -y\
+apt install -y\
     # install mysql-server
     echo 'Installing mysql-server ...'
     mysql-server \

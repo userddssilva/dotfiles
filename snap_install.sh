@@ -1,19 +1,19 @@
 #!/bin/bash
 
 # install libreoffice 
-sudo snap install libreoffice
+snap install libreoffice
 
 # install vlc
-sudo snap install vlc
+snap install vlc
 
 # install vscode
-sudo snap install --classic code
+snap install --classic code
 
 # install sublime text
-sudo snap install sublime-text --classic
+snap install sublime-text --classic
 
 # install pulseaudio
-sudo snap install pulseaudio
+snap install pulseaudio
 
 # install beekeeper-studio
-# sudo snap install beekeeper-studio
+# snap install beekeeper-studio
