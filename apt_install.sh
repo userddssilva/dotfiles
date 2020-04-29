@@ -39,6 +39,9 @@ sudo apt install -y \
     # echo 'Installing neovim'
     # neovim \
 
+    # more colors in the shell \
+    grc \
+
 # mysql install
 echo 'Installing mysql ...'
 sudo apt install -y\

@@ -14,3 +14,6 @@ sudo snap install sublime-text --classic
 
 # install pulseaudio
 sudo snap install pulseaudio
+
+# install beekeeper-studio
+# sudo snap install beekeeper-studio
