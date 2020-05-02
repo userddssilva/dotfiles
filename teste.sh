@@ -13,17 +13,13 @@ function whait_a_bit(){
 # printf "\n\nInstall vim"
 # whait_a_bit
 
-
-
 if [[ $(lsb_release -rs) != "18.04" ]];
 then
     sudo apt install -y \
         tree 
 fi
 
-sudo snap install youtube-dl\
-    # comment
-    mpc-hc --edge
 
-    #
-
+apt install -y\
+    vim \
+    git \
