@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install libreoffice 
-snap install libreoffice \
+snap install libreoffice
 
 # install vlc
 snap install vlc

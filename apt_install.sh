@@ -10,7 +10,8 @@ apt install -y\
     wget \
     snap \
     mysql-server \
-    mysql-client 
+    mysql-client \
+    ktorrent  
     
 # install on ubuntu 18.04
 if [[ $(lsb_release -rs) == "18.04" ]];
