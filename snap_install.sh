@@ -15,6 +15,8 @@ snap install sublime-text --classic
 # install pulseaudio
 snap install pulseaudio
 
+sudo snap install opera
+
 # install on ubuntu != 18.04
 if [[ $(lsb_release -rs) != "18.04" ]];
 then
