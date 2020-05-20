@@ -17,13 +17,16 @@ up_system
 source apt_install.sh
 
 # install snap
-source snap_intall.sh
+source snap_install.sh
 
 # install google chrome
 source google_chrome_install.sh
 
 # install brave
 # source brave_install.sh
+
+# pip install
+source pip_install.sh
 
 # update and upgrade
 up_system
@@ -33,3 +36,6 @@ apt-get -qq -f install
 apt-get -qq autoremove
 apt-get -qq -y autoclean
 apt-get -qq -y clean
+
+# configure
+source configurations.sh
