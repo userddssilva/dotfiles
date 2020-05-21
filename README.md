@@ -12,7 +12,7 @@ To install all the software in these files, you can run:
 
 but you can comment the line if you don't want to install any of the programs. With this command the configuration files will also be copied.
 
-# Demo
+## Demo
 
 My terminal opem with softwares
 
