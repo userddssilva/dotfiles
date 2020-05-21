@@ -16,9 +16,9 @@ but you can comment the line if you don't want to install any of the programs. W
 
 My terminal opem with softwares
 
-![](./img/demo_t.png)
+![](./IMG/demo_t.png)
 
 My softwares installed
 
-![](./img/demo_s.png)
+![](./IMG/demo_s.png)
 
