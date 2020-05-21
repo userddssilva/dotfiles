@@ -25,6 +25,8 @@ source google_chrome_install.sh
 # install brave
 # source brave_install.sh
 
+source pythora_install.sh
+
 # pip install
 source pip_install.sh
 
