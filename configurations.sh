@@ -4,4 +4,4 @@
 cp dotfiles/.vimrc ~/
 
 # add commands extras to ~/.zshrc
-cat extra_aliases.sh >> ~/.zshrc
+cat dotfiles/.extra_aliases.sh >> ~/.zshrc
