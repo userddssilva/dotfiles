@@ -10,6 +10,14 @@ function up_system(){
     apt upgrade -y
 }
 
+function clean_up() {
+    echo 'Cleaning Up'
+    apt-get -qq -f install
+    apt-get -qq autoremove
+    apt-get -qq -y autoclean
+    apt-get -qq -y clean
+}
+
 # update and upgrade
 up_system
 
@@ -20,24 +28,24 @@ source apt_install.sh
 source snap_install.sh
 
 # install google chrome
-source google_chrome_install.sh
+# source google_chrome_install.sh
 
 # install brave
 # source brave_install.sh
 
 source pythora_install.sh
 
-# pip install
+# install pip
 source pip_install.sh
+
+# install oh my zsh
+# source install_oh_my_zsh.sh
 
 # update and upgrade
 up_system
 
-echo 'Cleaning Up'
-apt-get -qq -f install
-apt-get -qq autoremove
-apt-get -qq -y autoclean
-apt-get -qq -y clean
-
-# configure
+# configuration
 source configurations.sh
+
+# remove obsolete softwares
+clean_up()
