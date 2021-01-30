@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install libreoffice 
-snap install libreoffice
+# snap install libreoffice
 
 # install vlc
 snap install vlc
@@ -13,6 +13,6 @@ snap install --classic code
 snap install sublime-text --classic
 
 # install beekeeper-studio
-snap install beekeeper-studio
+# snap install beekeeper-studio
 
 sudo apt install pavucontrol -y

@@ -9,13 +9,16 @@ apt install -y\
     curl\
     wget\
     snap\
-    mysql-server\
-    mysql-client\
     ktorrent\
     pavucontrol\
     terminator\
     default-jdk\
     python3-pip
+
+
+# apt install -y\
+#    mysql-server\
+#    mysql-client\
 
 # install on ubuntu 18.04
 if [[ $(lsb_release -rs) == "18.04" ]];
