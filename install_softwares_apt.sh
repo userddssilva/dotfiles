@@ -25,7 +25,7 @@ if [[ $(lsb_release -rs) == "18.04" ]]; then
 fi
 
 # if install on pop os
-if [[ $(lbs_release -is) == "Pop" ]]; then
+if [[ $(lsb_release -is) == "Pop" ]]; then
     sudo apt install snapd -y
 else
     sudo apt install snap -y
