@@ -14,5 +14,3 @@ snap install sublime-text --classic
 
 # install beekeeper-studio
 # snap install beekeeper-studio
-
-sudo apt install pavucontrol -y
