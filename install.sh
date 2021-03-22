@@ -40,7 +40,7 @@ source install_pytora.sh
 source install_packages_pip.sh
 
 # install oh my zsh
-# source install_oh_my_zsh.sh
+source install_oh_my_zsh.sh
 
 # update and upgrade
 up_system
