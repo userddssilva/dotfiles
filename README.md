@@ -1,4 +1,4 @@
-# My machine - Repository
+# Dotfiles
 
 ## Intro this repository
 
