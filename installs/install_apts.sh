@@ -10,9 +10,10 @@ apt install -y\
     wget\
     ktorrent\
     pavucontrol\
-    terminator\
     default-jdk\
-    python3-pip
+    python3-pip\
+    cheese\
+    zsh
 
 # install MySql
 # apt install -y\
@@ -20,9 +21,9 @@ apt install -y\
 #    mysql-client\
 
 # install on ubuntu 18.04
-if [[ $(lsb_release -rs) == "18.04" ]]; then
-    sudo apt install -y mysql-workbench
-fi
+# if [[ $(lsb_release -rs) == "18.04" ]]; then
+#     sudo apt install -y mysql-workbench
+# fi
 
 # if install on pop os
 if [[ $(lsb_release -is) == "Pop" ]]; then
