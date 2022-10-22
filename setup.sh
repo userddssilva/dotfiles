@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## commands to install softwares 
-source install.sh 
+source installs/install.sh 
 
 ## commands to machine config 
-source dotfiles/configurations.sh
+source settings/configurations.sh
