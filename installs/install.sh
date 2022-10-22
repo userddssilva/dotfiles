@@ -22,13 +22,13 @@ function clean_up() {
 up_system
 
 # install softwares with apt
-source install_apts.sh
+source ./install_apts.sh
 
 # install softwares with snap
-source install_snaps.sh
+source ./install_snaps.sh
 
 # install browser google chrome
-source install_google_chrome.sh
+source ./install_google_chrome.sh
 
 # install browser brave
 # source install_brave.sh
@@ -37,10 +37,10 @@ source install_google_chrome.sh
 # source install_pytora.sh
 
 # install packages pip
-source install_packages_pip.sh
+source ./install_packages_pip.sh
 
 # install oh my zsh
-source install_oh_my_zsh.sh
+source ./install_oh_my_zsh.sh
 
 # update and upgrade
 up_system
