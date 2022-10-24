@@ -1,6 +1,8 @@
 #!/bin/bash
 
-if [ -d "~/.oh-my-zsh/" ]; then
+DIR = "~/.oh-my-zsh/"
+if [ -d "$DIR" ]; then
+    echo "Add custom settings ..."
     # add commands extras to ~/.zshrc
     cat ../settings/.aliases >> ~/.zshrc
 
@@ -8,8 +10,9 @@ if [ -d "~/.oh-my-zsh/" ]; then
     sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="fino-time"/g' ~/.zshrc
 
     # reload ~/.zshrc settings
-    source ~/.zshrc
+    exec zsh
 else
+    echo "Installing oh my zsh ..."
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
