@@ -31,3 +31,6 @@ if [[ $(lsb_release -is) == "Pop" ]]; then
 else
     sudo apt install snap -y
 fi
+
+# add commands extras to ~/.zshrc
+cat settings/.aliases >> ~/.zshrc
