@@ -42,14 +42,11 @@ source ./installs/install_packages_pip.sh
 # install oh my zsh
 # source install_oh_my_zsh.sh
 
+# Custom commands to machine config 
+source ./settings/config.sh
+
 # update and upgrade
 up_system
 
 # remove obsolete softwares
 clean_up
-
-# Custom commands to machine config 
-source ./settings/config.sh
-
-# install Oh My Zshell
-source ./installs/install_oh_my_zsh.sh
