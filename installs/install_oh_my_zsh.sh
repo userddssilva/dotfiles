@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR = "~/.oh-my-zsh/"
+DIR="$HOME/.oh-my-zsh/"
 if [ -d "$DIR" ]; then
     echo "Add custom settings ..."
     # add commands extras to ~/.zshrc
